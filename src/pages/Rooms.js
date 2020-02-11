@@ -8,7 +8,7 @@ const Rooms = () => {
     <Hero hero="roomsHero">
       <Banner title="our room">
         <Link to="/" className="btn-primary">
-          retur home
+          return home
         </Link>
       </Banner>
     </Hero>

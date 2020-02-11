@@ -4,8 +4,9 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
+import Button from "../components/StyledHero";
 
-function Home() {
+export default function Home() {
   return (
     <>
       <Hero>
@@ -17,8 +18,7 @@ function Home() {
       </Hero>
       <Services />
       <FeaturedRooms />
+      <Button>hello</Button>
     </>
   );
 }
-
-export default Home;
